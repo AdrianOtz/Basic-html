@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Pagina Web</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    
+    <ul>
+        <li><a href="index.html" title="Inicio">Inicio</a></li>
+        <li> <a href="contenido.html" title="Contenido">Contenido</a></li>
+        <li> <a href="contacto.html" title="Contacto">Contacto</a></li>
+    </ul>
+
+    <hr/>
+
+    <h2>Comentarios</h2>
+    <form>
+        <p>
+            <label for="nombre">Nombre</label> <br/>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre..."/>
+        </p>
+
+        <p>
+            <label for="comentarios">Comentarios</label> <br/>
+            <textarea name="comentarios" placeholder="Escribe tu comentario..."></textarea>
+        </p>
+
+        <p> 
+            <label for="edad">Edad</label> <br/>
+            <select name="edad">
+                <option value="18-39">18-39</option>
+                <option value="40-64">40-64</option>
+                <option value="65-99">65-99</option>
+            </select>
+        </p>
+        <input type="submit" value="Enviar email"/>
+    </form>
+</body>
+</html>
